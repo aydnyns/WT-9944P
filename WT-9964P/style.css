@@ -1,0 +1,42 @@
+.bg-gradient-primary-to-secondary {
+    background: radial-gradient(circle at top left, #099ef1 0%, #6863f8 18.82%, #d84ffa 32.6%, #f058c5 52.83%, #ff4f90 68.03%, #ff6558 87.66%, #ff891f 100%);
+}
+.icon-feature{
+    font-size: 4rem;
+}
+.text-gradient {
+    background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 40px;   
+}
+section.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.banner > * {
+    z-index: 1;
+}
+section.cta {
+    position: relative;
+    padding: 15rem 0;
+    background-image: url(1500x800.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+
+footer a{
+    
+    color: rgba(255, 255, 255, 0.5);
+}
+footer a:hover{
+    color: white;
+}
+
